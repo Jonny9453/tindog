@@ -1,0 +1,205 @@
+body{
+    font-family: "Montserrat" ;
+    text-align: center;
+}
+
+h1,h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.white-section{
+    background-color: #fff;
+
+}
+
+/* Title Section */
+
+#title{
+    text-align: left;
+}
+
+.big-heading{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+
+
+
+.title-image{
+    width: 350px;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 24%;
+    
+}
+
+@media (max-width: 1028px ){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        
+    }
+    
+}
+
+
+
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem ;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 3% 5% 5% 0;
+}
+
+.btn-dark:hover {
+    background-color: rgb(220, 75, 75);
+}
+
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.fa-solid:hover{
+    color: #ff4c68;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* Feacture Section */
+
+#features{
+    padding:5% 15%;
+    
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.features-box{
+    padding: 5%;
+}
+
+.feature-text{
+    font-size: 1.5rem;
+}
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 3rem ;
+
+}
+ .testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+ }
+
+ #press{
+    background-color:#ef8172 ;
+    padding: 3%;
+ }
+ .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
+
+ .carousel-item{
+    padding: 5% 15%;
+ }
+
+ /* Pricing Section */
+
+ #pricing{
+    padding: 100px;
+ }
+
+ .pricing-column{
+    padding: 3% 2%;
+ }
+
+ .pricing-text{
+    line-height: 1.5;
+    font-size: 3rem ;
+ }
+
+ .pricing-header{
+    font-size: 1.5rem;
+ }
+
+ /* Call to Action */
+
+ #cta{
+    padding:5%;
+ }
+
+ .Action-font{
+    
+    font-size: 2.5rem;
+
+    padding: 0 23%;
+ }
+
+ .download-button-footer{
+    margin: 4% 2%;
+ }
+
+ /* footer */
+
+ #footer{
+    padding: 7% 15%;
+ }
+
+ .footer-icon{
+    margin:1%;
+ }
